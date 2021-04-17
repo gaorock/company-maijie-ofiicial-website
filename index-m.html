@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="styles/style.m.css">
+  <link rel="stylesheet" href="styles/swiper-bundle.min.css">
+  <script src="/js/swiper-bundle.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, shrink-to-fit=no, viewport-fit=cover" />
+  <title>首页</title>
+</head>
+<body>
+
+  <header>
+    <div class="menu">
+      <a><img class="logo" src="/assets/icons/logo1.png" /></a>
+      <div class="nav-button img-contain"></div>
+    </div>
+   
+    <div class="dropdown">
+      <div class="cover"></div>
+      <div class="main">
+        <div class="header flex f-center">
+          <img src="/assets/icons/logo-gray.png" >
+          <div class="nav-button img-contain close" id="close"></div>
+        </div>
+  
+        <div class="content">
+          <div><a>首页</a></div>
+          <div><a>关于我们</a></div>
+
+          <div class="multi">
+            <a class="flex f-center">
+              <span class="flex-1">产品与服务</span>
+              <svg 
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="10px" height="5px">
+              <path fill-rule="evenodd"
+              d="M8.000,5.000 L8.000,4.000 L7.000,4.000 L7.000,3.000 L6.000,3.000 L6.000,2.000 L5.000,2.000 L4.000,2.000 L4.000,3.000 L3.000,3.000 L3.000,4.000 L2.000,4.000 L2.000,5.000 L-0.000,5.000 L-0.000,4.000 L1.000,4.000 L1.000,3.000 L2.000,3.000 L2.000,2.000 L3.000,2.000 L3.000,1.000 L4.000,1.000 L4.000,-0.000 L6.000,-0.000 L6.000,1.000 L7.000,1.000 L7.000,2.000 L8.000,2.000 L8.000,3.000 L9.000,3.000 L9.000,4.000 L10.000,4.000 L10.000,5.000 L8.000,5.000 Z"/>
+              </svg>
+            </a>
+            <div class="expend show">
+              <h4>定制开发</h4>
+              <ul>
+                <li><a>前端开发</a></li>
+                <li><a>网站建设</a></li>
+                <li><a>微信开发</a></li>
+                <li><a>APP开发</a></li>
+              </ul>
+              <h4>SaaS软件</h4>
+              <ul>
+                <li><a>抖小序商城</a></li>
+                <li><a>抖小序外卖</a></li>
+                <li><a>售后大师</a></li>
+              </ul>
+              <h4>行业解决方案</h4>
+              <ul>
+                <li><a>政采网解决方案</a></li>
+              </ul>
+          </div>
+        </div>  
+        <div><a>案例展示</a></div>
+        <div><a>新闻动态</a></div>
+        <div><a>人力资源</a></div>
+        <div><a>联系我们</a></div>
+      </div>
+    </div>
+  </header>
+
+
+  <aside>
+    <div class="menu">
+      <a href="/index-m.html">
+        <img src="assets/icons/home.png" />
+        <h4>首页</h4>
+      </a>
+      <a href="tel:123">
+        <img src="assets/icons/phone.png" />
+        <h4>联系我们</h4>
+      </a>
+      <a onClick="javascript:window.scrollTo(0, 0)">
+        <img src="assets/icons/top.png" />
+        <h4>返回顶部</h4>
+      </a>
+    </div>
+    <div class="placeholder"></div>
+  </aside>
+
+  <main class="home">
+    <section class="sec-1 img-cover">
+      <img src="assets/images/home-word-1.png" />
+    </section>
+    <section class="sec-2">
+      <div class="flex title">
+        <img class="headerline-icon" src="assets/icons/mobile-home-1.png" />
+        <h2 class="constrain">产品与服务</h2>
+      </div>
+      
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide img-cover" style="background-image: url('/assets/images/bg1.jpg');">
+            <div class="cover"></div>
+            <a class="content">
+              <h3>微信开发</h3>
+              <p>模板建站、定制建站、商城建站、管理系统开发、OA/CRM开发</p>
+              <img src="/assets/icons/arrow-s.png" />
+            </a>
+          </div>
+          <div class="swiper-slide img-cover" style="background-image: url('/assets/images/bg1.jpg');">
+            <div class="cover"></div>
+            <a class="content">
+              <h3>微信开发</h3>
+              <p>模板建站、定制建站、商城建站、管理系统开发、OA/CRM开发</p>
+              <img src="/assets/icons/arrow-s.png" />
+            </a>
+          </div>
+          <div class="swiper-slide img-cover" style="background-image: url('/assets/images/bg1.jpg');">
+            <div class="cover"></div>
+            <a class="content">
+              <h3>微信开发</h3>
+              <p>模板建站、定制建站、商城建站、管理系统开发、OA/CRM开发</p>
+              <img src="/assets/icons/arrow-s.png" />
+            </a>
+          </div>
+         
+          
+
+        </div>
+        <!-- Add Pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+        <!-- Add Arrows -->
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+      </div>
+    </section>
+    <section class="sec-3">
+      <div class="flex title">
+        <img class="headerline-icon" src="assets/icons/mobile-home-2.png" />
+        <h2 class="constrain">产品案例</h2>
+      </div>
+      <div class="products constrain">
+        <a>
+          <div class="pic img-cover" style="background-image: url('/assets/images/pic1.png');"></div>
+          <p>看动漫UI设计案例展示</p>
+        </a>
+        <a>
+          <div class="pic img-cover" style="background-image: url('/assets/images/pic1.png');"></div>
+          <p>看动漫UI设计案例展示</p>
+        </a>
+        <a>
+          <div class="pic img-cover" style="background-image: url('/assets/images/pic1.png');"></div>
+          <p>看动漫UI设计案例展示</p>
+        </a>
+        <a>
+          <div class="pic img-cover" style="background-image: url('/assets/images/pic1.png');"></div>
+          <p>看动漫UI设计案例展示</p>
+        </a>
+        <a>
+          <div class="pic img-cover" style="background-image: url('/assets/images/pic1.png');"></div>
+          <p>看动漫UI设计案例展示</p>
+        </a>
+        <a>
+          <div class="pic img-cover" style="background-image: url('/assets/images/pic1.png');"></div>
+          <p>看动漫UI设计案例展示</p>
+        </a>
+
+      </div>
+
+      <a href="" class="button">查看更多案例</a>
+    </section>
+    <section class="sec-4">
+      <div class="flex title">
+        <img class="headerline-icon" src="assets/icons/mobile-home-3.png" />
+        <h2 class="constrain">新闻资讯</h2>
+      </div>
+      
+      <a class="headline constrain">
+
+        <div class="pic img-cover" style="background-image: url('/assets/images/pic1.png');"></div>
+        <div class="content">
+          <h4>河南新乡软件项目招标公司、河南新乡政府软件开发项目 招标公司</h4>
+          <h5>2021-03-16</h5>
+        </div>
+
+      </a>
+      <ul>
+        <li>
+          <div class="date">
+            <h4>15</h4>
+            <h5>2021-03</h5>
+          </div>
+          <a>
+            <h3>强恭喜我公司被评为2020年度新乡市电子商务示范企业</h3>
+            <p>恭喜我公司被评为2020年度新乡市电子商务示范企业，我们将以此为新的起点，继续</p>
+          </a>
+        </li>
+        <li>
+          <div class="date">
+            <h4>15</h4>
+            <h5>2021-03</h5>
+          </div>
+          <a>
+            <h3>强恭喜我公司被评为2020年度新乡市电子商务示范企业</h3>
+            <p>恭喜我公司被评为2020年度新乡市电子商务示范企业，我们将以此为新的起点，继续 做好电商软件服务，争取为新乡市电商发展做出更大</p>
+          </a>
+        </li>
+      </ul>
+      <a href="" class="button">查看更多</a>
+    </section>
+    <section class="sec-5 constrain">
+      <div class="board">
+        <h1>合作客户</h1>
+        <div class="flex f-center">
+          <div class="box">
+            <h2>10000+</h2>
+            <span>服务客户</span>
+          </div>
+          <div class="box">
+            <h2>100+</h2>
+            <span>服务政府机关</span>
+          </div>
+          <div class="box">
+            <h2>50+</h2>
+            <span>服务上市公司</span>
+          </div>
+        </div>
+      </div>
+
+      <ul>
+        <li><div class="img-contain" style="background-image: url('assets/icons/link/1.png');"></div></li>
+        <li><div class="img-contain" style="background-image: url('assets/icons/link/2.png');"></div></li>
+        <li><div class="img-contain" style="background-image: url('assets/icons/link/1.png');"></div></li>
+        <li><div class="img-contain" style="background-image: url('assets/icons/link/2.png');"></div></li>
+        <li><div class="img-contain" style="background-image: url('assets/icons/link/1.png');"></div></li>
+        <li><div class="img-contain" style="background-image: url('assets/icons/link/2.png');"></div></li>
+        <li><div class="img-contain" style="background-image: url('assets/icons/link/1.png');"></div></li>
+        <li><div class="img-contain" style="background-image: url('assets/icons/link/2.png');"></div></li>
+        <li><div class="img-contain" style="background-image: url('assets/icons/link/1.png');"></div></li>
+        <li><div class="img-contain" style="background-image: url('assets/icons/link/2.png');"></div></li>
+        <li><div class="img-contain" style="background-image: url('assets/icons/link/1.png');"></div></li>
+        <li><div class="img-contain" style="background-image: url('assets/icons/link/2.png');"></div></li>
+      </ul>
+    </section>
+
+  </main>
+  
+
+  
+</body>
+
+<script src="/js/header.m.js"></script>
+<script>
+
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 'auto',
+      initialSlide: 2,
+      autoplay: true,
+      loop: true,
+      // slidesPerView: 4,
+      centeredSlides: true,
+      spaceBetween: 20,
+    });
+</script>
+</html>
